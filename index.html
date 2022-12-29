@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javaScript Class Eight</title>
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align: center">javaScript Class Eight</h1>
+    </header>
+    <main>
+      <div>
+        <button style="margin: 15 px" onclick="displayText()">
+          Click To Console
+        </button>
+        <button style="margin: 15px" onclick="myAlert()">Click Alert</button>
+        <button style="margin: 15px" onmouseover="alertHover()">
+          Hover me Alert
+        </button>
+      </div>
+      <!-- This Will Redirect in new Tab google.com--->
+      <div>
+        <form
+          action="https://www.google.com"
+          target="_blank"
+          onsubmit="confirmInput()"
+        >
+          <p>Enter your name:</p>
+          <input type="text" size="20" id="fullName" />
+          <input type="submit" />
+        </form>
+      </div>
+      <!-- This Will Redirect in new Tab google.com--->
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
